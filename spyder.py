@@ -3,7 +3,6 @@ from selenium import webdriver
 import time
 
 class Spider:
-
     def GetEncryptedPasswordEdge(url: str, password: str, timeset: int = 3, exe_path: str = "", **options) -> dict:
         '''
         该函数会在运行时弹出一个Edge浏览器用于获取加密后的密码
